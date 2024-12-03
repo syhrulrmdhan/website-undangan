@@ -1,5 +1,5 @@
 :root {
-  --brown: #99780c95;
+  --brown: #7a600b95;
   --bg: #0a0a0a;
   --shadow: - 2px 2px rgb(0 0 0 / 0.5);
 }
@@ -7,7 +7,7 @@
 body {
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
-  min-height: 4000px;
+  min-height: 2000px;
 }
 
 .hero::before {
@@ -17,7 +17,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/villa.jpg);
+  background-image: url(img/camping.jpg);
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -80,6 +80,7 @@ body {
 }
 
 .home {
+  background-image: url(img/gunung.jpg);
   background-size: cover;
   min-height: 100vh;
   margin-top: -6rem;
@@ -95,14 +96,14 @@ body {
 }
 
 .home h3 {
-  color: #444;
+  color: black;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .home p {
   font-size: 1.1rem;
-  color: #666;
+  color: black;
 }
 
 .home  .couple {
